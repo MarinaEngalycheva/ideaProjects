@@ -1,25 +1,24 @@
-15:01:43.565 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-15:01:43.712 request:
+15:34:09.292 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:34:09.438 request:
 1 > GET https://reqres.in/api/users/2
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_265)
 
-15:01:44.016 response time in milliseconds: 299.69
+15:34:09.892 response time in milliseconds: 442.74
 1 < 200
 1 < Access-Control-Allow-Origin: *
-1 < Age: 34
-1 < CF-Cache-Status: HIT
-1 < CF-RAY: 8bde2b7d8d015acd-VIE
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 8bde5afdfc06bfe1-WAW
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 04 Sep 2024 13:01:43 GMT
+1 < Date: Wed, 04 Sep 2024 13:34:09 GMT
 1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724611872&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=LQs8excJOAXBHaDVpOsgwVfuUiRWnF7ZzpAINCZqtBw%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1724611872&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=LQs8excJOAXBHaDVpOsgwVfuUiRWnF7ZzpAINCZqtBw%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1725207420&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UORUDqy9LLXEURta6ZfZDF4QMSHKICQ6eCl%2FNDLz61o%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1725207420&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UORUDqy9LLXEURta6ZfZDF4QMSHKICQ6eCl%2FNDLz61o%3D
 1 < Server: cloudflare
 1 < Transfer-Encoding: chunked
 1 < Vary: Accept-Encoding
@@ -27,31 +26,60 @@
 1 < X-Powered-By: Express
 {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
-15:01:44.038 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-15:01:44.041 request:
+15:34:09.929 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:34:09.932 request:
 1 > GET https://reqres.in/api/users/100
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Host: reqres.in
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_265)
 
-15:01:44.345 response time in milliseconds: 304.05
+15:34:10.269 response time in milliseconds: 335.12
 1 < 404
 1 < Access-Control-Allow-Origin: *
-1 < CF-Cache-Status: MISS
-1 < CF-RAY: 8bde2b7e881c5b03-VIE
+1 < CF-Cache-Status: EXPIRED
+1 < CF-RAY: 8bde5b00db9abfeb-WAW
 1 < Cache-Control: max-age=14400
 1 < Connection: keep-alive
 1 < Content-Length: 2
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Wed, 04 Sep 2024 13:01:44 GMT
+1 < Date: Wed, 04 Sep 2024 13:34:10 GMT
 1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1725454904&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=u99Bx95cZjFJgAIu0dmsK8wBM%2FLSicehuyyZmuA%2BuiI%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1725454904&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=u99Bx95cZjFJgAIu0dmsK8wBM%2FLSicehuyyZmuA%2BuiI%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1725456850&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=rZ4Apy4qQ5Z9NFLQ9kk5TEP2Fq4%2F5oQODUqXdaCAXcE%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1725456850&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=rZ4Apy4qQ5Z9NFLQ9kk5TEP2Fq4%2F5oQODUqXdaCAXcE%3D
 1 < Server: cloudflare
 1 < Vary: Accept-Encoding
 1 < Via: 1.1 vegur
 1 < X-Powered-By: Express
 {}
+
+15:34:10.282 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:34:10.289 request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_265)
+
+15:34:10.352 response time in milliseconds: 62.41
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4919
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 8bde5b026ef0c06f-WAW
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 04 Sep 2024 13:34:10 GMT
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1724858014&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=bpxDJGxankad3AQV7uo7ehLUGieIp5yVTEAmM69%2BnDs%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1724858014&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=bpxDJGxankad3AQV7uo7ehLUGieIp5yVTEAmM69%2BnDs%3D
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 
