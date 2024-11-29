@@ -37,6 +37,16 @@ Feature: create, update, delete new user
     And match response.job == "leader"
 
 
+  Scenario: update user
+
+    Given url 'https://reqres.in/api/users/2'
+    When request newUser
+    And method PATCH
+    Then status 200
+    And match response.name == "mouse"
+    And match response.job == "leader"
+
+
   Scenario: delete new user
 
     Given url 'https://reqres.in/api/users/2'
