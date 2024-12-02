@@ -12,7 +12,7 @@ Feature: create, update, delete new user
     * def newUser =
     """
     {
-      "name": "mouse",
+      "name": "mister",
       "job": "leader"
     }
     """
@@ -33,7 +33,7 @@ Feature: create, update, delete new user
     When request newUser
     And method PUT
     Then status 200
-    And match response.name == "mouse"
+    And match response.name == "mister"
     And match response.job == "leader"
 
 
@@ -43,7 +43,7 @@ Feature: create, update, delete new user
     When request newUser
     And method PATCH
     Then status 200
-    And match response.name == "mouse"
+    And match response.name == "mister"
     And match response.job == "leader"
 
 
